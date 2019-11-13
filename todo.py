@@ -55,7 +55,9 @@ The Best Todo App Evar
         elif choice == "1":
             print_todos()
         elif choice == "2":
-            pass
+            # Prompt them for what they want to do
+            new_todo = input("What do you need to do? ")
+            add_todo(new_todo)
         elif choice == "3":
             pass
         else:
